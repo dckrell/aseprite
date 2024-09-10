@@ -35,4 +35,4 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: executable
-          path: ./build/bin/asprite.*
+          path: ./build/bin/asprite.exe
