@@ -36,7 +36,7 @@ jobs:
         with:
           name: executable
           path: ./build/bin/aseprite.exe
-      - uses: actions/upload-artifcat@v4
+      - uses: actions/upload-artifact@v4
         with:
           name: pdb
           path: ./build/bin/aseprite.pdb
